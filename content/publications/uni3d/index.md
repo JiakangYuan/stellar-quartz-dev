@@ -1,0 +1,23 @@
+---
+title: "Uni3D: A Unified Baseline for Multi-dataset 3D Object Detection"
+authors:
+- Bo Zhang
+- Jiakang Yuan
+- Botian Shi
+- Tao Chen
+- Yikang Li
+- Yu Qiao
+date: "2023-02-01T00:00:00Z"
+publication_types: ['paper-conference']
+publication: "CVPR 2023"
+publication_short: "CVPR 2023"
+abstract: "Current 3D object detection models follow a single dataset-specific training and testing paradigm, which often faces a serious detection accuracy drop when they are directly deployed in another dataset. In this paper, we study the task of training a unified 3D detector from multiple datasets. We observe that this appears to be a challenging task, which is mainly due to that these datasets present substantial data-level differences and taxonomy-level variations caused by different LiDAR types and data acquisition standards. Inspired by such observation, we present a Uni3D which leverages a simple data-level correction operation and a designed semantic-level coupling-and-recoupling module to alleviate the unavoidable data-level and taxonomy-level differences, respectively. Our method is simple and easily combined with many 3D object detection baselines such as PV-RCNN and Voxel-RCNN, enabling them to effectively learn from multiple off-the-shelf 3D datasets to obtain more discriminative and generalizable representations. Experiments are conducted on many dataset consolidation settings including Waymo-nuScenes, nuScenes-KITTI, Waymo-KITTI, and Waymo-nuScenes-KITTI consolidations. Their results demonstrate that Uni3D exceeds a series of individual detectors trained on a single dataset, with a 1.04x parameter increase over a selected baseline detector. We expect this work will inspire the research of 3D generalization since it will push the limits of perceptual performance."
+summary: "A unified baseline to tackle multi-dataset 3D object detection from data-level and semantic-level."
+tags:
+  - 3D Object Detection
+category: "3D Vision & Autonomous Driving"
+featured: false
+links:
+  - type: pdf
+    url: https://arxiv.org/abs/2303.06880
+---

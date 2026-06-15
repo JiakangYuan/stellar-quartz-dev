@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:jiakangyuan.github.io)",
+      "Bash(curl -sL https://jiakangyuan.github.io/)",
+      "Read(//Users/yuanjiakang/Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!hugo!blox/kit/modules/blox@v0.12.0/layouts/**)",
+      "Read(//Users/yuanjiakang/Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!hugo!blox/kit/modules/blox@v0.12.0/layouts/_default/**)"
+    ]
+  }
+}

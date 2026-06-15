@@ -1,0 +1,46 @@
+{{/* Hugo Blox: Markdown - Enhanced styling */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+{{ $title := "" }}
+{{ with index $content "title" }}{{ $title = printf "%v" . | emojify | $page.RenderString }}{{ end }}
+{{ $subtitle := "" }}
+{{ with index $content "subtitle" }}{{ $subtitle = printf "%v" . | emojify | $page.RenderString }}{{ end }}
+{{ $text := "" }}
+{{ with index $content "text" }}{{ $text = printf "%v" . | emojify | $page.RenderString | safeHTML }}{{ end }}
+
+{{/* Section divider - only show when block has a title */}}
+{{ if $title }}
+<div class="section-divider mb-10"></div>
+{{ end }}
+
+<div class="animate-on-scroll flex flex-col items-center max-w-4xl mx-auto gap-3 justify-center px-6">
+
+  {{ with $title }}
+  <div class="mb-6 text-center flex items-center justify-center gap-3">
+    {{ $block_id := "" }}
+    {{ with $block.id }}{{ $block_id = . }}{{ end }}
+    {{ if eq $block_id "news" }}
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" /></svg>
+    {{ else if eq $block_id "talks" }}
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+    {{ else if eq $block_id "services" }}
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
+    {{ end }}
+    <h2 class="text-3xl font-bold text-gray-900 dark:text-white section-title-accent">
+      {{ . }}
+    </h2>
+  </div>
+  {{ end }}
+
+  {{ with $subtitle }}
+  <div class="text-lg text-gray-600 dark:text-gray-400">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  {{ with $text }}<div class="prose prose-slate prose-base dark:prose-invert max-w-none w-full" style="text-align: justify;">{{ . }}</div>{{ end }}
+</div>

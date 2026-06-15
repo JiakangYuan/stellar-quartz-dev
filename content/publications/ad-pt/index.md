@@ -1,0 +1,25 @@
+---
+title: "AD-PT: Autonomous Driving Pre-Training with Large-scale Point Cloud Dataset"
+authors:
+- Jiakang Yuan
+- Bo Zhang
+- Xiangchao Yan
+- Tao Chen
+- Botian Shi
+- Yikang Li
+- Yu Qiao
+date: "2023-09-01T00:00:00Z"
+publication_types: ['paper-conference']
+publication: "NeurIPS 2023"
+publication_short: "NeurIPS 2023"
+abstract: "It is a long-term vision for Autonomous Driving (AD) community that the perception models can learn from a large-scale point cloud dataset, to obtain unified representations that can achieve promising results on different tasks or benchmarks. Previous works mainly focus on the self-supervised pre-training pipeline, meaning that they perform the pre-training and fine-tuning on the same benchmark, which is difficult to attain the performance scalability and cross-dataset application for the pre-training checkpoint. In this paper, for the first time, we are committed to building a large-scale pre-training point-cloud dataset with diverse data distribution, and meanwhile learning generalizable representations from such a diverse pre-training dataset. We formulate the point-cloud pre-training task as a semi-supervised problem, which leverages the few-shot labeled and massive unlabeled point-cloud data to generate the unified backbone representations that can be directly applied to many baseline models and benchmarks, decoupling the AD-related pre-training process and downstream fine-tuning task. During the period of backbone pre-training, by enhancing the scene- and instance-level distribution diversity and exploiting the backbone's ability to learn from unknown instances, we achieve significant performance gains on a series of downstream perception benchmarks including Waymo, nuScenes, and KITTI, under different baseline models like PV-RCNN++, SECOND, CenterPoint."
+summary: "Build a large-scale pre-training point-cloud dataset with diverse data distribution, and learn generalizable representations."
+tags:
+  - Autonomous Driving
+  - Pre-training
+category: "3D Vision & Autonomous Driving"
+featured: false
+links:
+  - type: pdf
+    url: https://arxiv.org/abs/2306.00612
+---
