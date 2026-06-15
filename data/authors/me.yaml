@@ -11,7 +11,7 @@ status:
   icon: ""
 role: Ph.D. Candidate
 bio: |
-  I am current a fourth-year Ph.D. student (Sep. 2022 - Jun. 2027, expected) in the School of Information Science and Technology, Fudan University, supervised by Prof. [Tao Chen](https://eetchen.github.io/). I am also fortunate to work closely with Dr. [Bo Zhang](https://bobrown.github.io/boZhang.github.io/) from Shanghai AI Lab. Before this, I obtained my Bachelor's degree in Electronic Engineering also from Fudan University (Sep. 2018 - Jun. 2022). I'm currently working in the fields of agentic model, multi-agent system, and multi-modal large language models. My research pursues to develop AI systems that can understand, reason, and interact with the real world.
+  I am current a fourth-year Ph.D. student (Sep. 2022 - Jun. 2027, expected) in the School of Information Science and Technology, Fudan University, supervised by Prof. [Tao Chen](https://eetchen.github.io/). Before this, I obtained my Bachelor's degree in Electronic Engineering also from Fudan University (Sep. 2018 - Jun. 2022). I'm currently working in the fields of agentic model, multi-agent system, and multi-modal large language models. My research pursues to develop AI systems that can understand, reason, and interact with the real world.
 
 affiliations:
   - name: Fudan University
@@ -57,7 +57,7 @@ education:
 experience:
   - role: Research Intern
     org: Qwen Team, Alibaba Group
-    start: 2026-04
+    start: 2026-05
     summary: |
       Long-horizon Agentic Task.
     icon: custom/qwen
