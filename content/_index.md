@@ -31,7 +31,7 @@ sections:
       subtitle: ''
       text: |-
         - *2026.4*: Three papers (MME-Reasoning, VisualScore, and, SAPO) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ICML 2026</span>. Two of them are about multimodal reasoning, another is about visual quality assessment.
-        - *2026.4*: Bi3D++ is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">IEEE T-PAMI 2025</span>.
+        - *2026.4*: Bi3D++ is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">IEEE T-PAMI 2026</span>.
         - *2026.4*: Our survey about reward hacking is out on arxiv and github. Feel free to check it.
         - *2026.4*: Two papers (FlowSearch and Controllable Memory Usage) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ACL 2026</span>. One is about DeepResearch, the other is about agent memory.
         - *2026.3*: Intern-S1-Pro technical report is released.
