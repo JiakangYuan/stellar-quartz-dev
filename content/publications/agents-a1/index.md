@@ -2,7 +2,7 @@
 title: "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent"
 authors:
 - Agents-A1 Team, Shanghai AI Lab
-date: "2026-6-30T00:00:00Z"
+date: "2026-06-30T00:00:00Z"
 publication_types: ['article']
 publication: "arXiv preprint"
 publication_short: "arXiv"
