@@ -30,6 +30,8 @@ sections:
       title: 'News'
       subtitle: ''
       text: |-
+        - *2026.6*: Agents-A1, an open-source 35B MoE model specialized on long-horizon tasks is out on Github and Huggingface, checkout the technical report.
+        - *2026.6*: One papers (T^2VLA) is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ECCV 2026</span> which is about test-time learning of VLA models.
         - *2026.4*: Three papers (MME-Reasoning, VisualScore, and, SAPO) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ICML 2026</span>. Two of them are about multimodal reasoning, another is about visual quality assessment.
         - *2026.4*: Bi3D++ is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">IEEE T-PAMI 2026</span>.
         - *2026.4*: Our survey about reward hacking is out on arxiv and github. Feel free to check it.
