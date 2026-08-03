@@ -30,14 +30,15 @@ sections:
       title: 'News'
       subtitle: ''
       text: |-
-        - *2026.6*: Agents-A1, an open-source 35B MoE model specialized on long-horizon tasks is out on Github and Huggingface, checkout the technical report.
-        - *2026.6*: One papers (T^2VLA) is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ECCV 2026</span> which is about test-time learning of VLA models.
-        - *2026.4*: Three papers (MME-Reasoning, VisualScore, and, SAPO) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ICML 2026</span>. Two of them are about multimodal reasoning, another is about visual quality assessment.
-        - *2026.4*: Bi3D++ is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">IEEE T-PAMI 2026</span>.
-        - *2026.4*: Our survey about reward hacking is out on arxiv and github. Feel free to check it.
-        - *2026.4*: Two papers (FlowSearch and Controllable Memory Usage) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ACL 2026</span>. One is about DeepResearch, the other is about agent memory.
-        - *2026.3*: Intern-S1-Pro technical report is released.
-        - *2026.2*: InternAgent-1.5 technical report is released.
+        - *2026.08*: [Qwen3.8-Max](https://qwen.ai/blog?id=qwen3.8), a 2.4T-parameter model with 95B active parameters, is released with strong improvements in coding, research, and long-horizon autonomous tasks.
+        - *2026.06*: Agents-A1, an open-source 35B MoE model specialized on long-horizon tasks is out on Github and Huggingface, checkout the technical report.
+        - *2026.06*: One papers (T^2VLA) is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ECCV 2026</span> which is about test-time learning of VLA models.
+        - *2026.04*: Three papers (MME-Reasoning, VisualScore, and, SAPO) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ICML 2026</span>. Two of them are about multimodal reasoning, another is about visual quality assessment.
+        - *2026.04*: Bi3D++ is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">IEEE T-PAMI 2026</span>.
+        - *2026.04*: Our survey about reward hacking is out on arxiv and github. Feel free to check it.
+        - *2026.04*: Two papers (FlowSearch and Controllable Memory Usage) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ACL 2026</span>. One is about DeepResearch, the other is about agent memory.
+        - *2026.03*: Intern-S1-Pro technical report is released.
+        - *2026.02*: InternAgent-1.5 technical report is released.
         - *2025.12*: SciEvalKit (An Open-source Evaluation Toolkit for Scientific General Intelligence) is released.
         - *2025.10*: Codes of InternAgent 1.0 is released on github.
 
@@ -45,11 +46,11 @@ sections:
         <summary style="cursor: pointer; color: var(--color-primary-600); font-weight: 500; margin-top: 8px;">Show more ↓</summary>
 
 
-        - *2025.7*: SPOT is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">IEEE T-PAMI 2025</span>.
-        - *2025.6*: Two papers (Lumina Image 2.0 and Chimera) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ICCV 2025</span>.
-        - *2025.5*: Two papers (SurveyForge and Dolphin) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ACL 2025</span>.
-        - *2025.5*: We release InternAgent (NovelSeek), a unified closed-loop multi-agent framework for Automatic Scientific Research.
-        - *2025.2*: One paper (CST-Stereo) is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">CVPR 2025</span>.
+        - *2025.07*: SPOT is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">IEEE T-PAMI 2025</span>.
+        - *2025.06*: Two papers (Lumina Image 2.0 and Chimera) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ICCV 2025</span>.
+        - *2025.05*: Two papers (SurveyForge and Dolphin) are accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ACL 2025</span>.
+        - *2025.05*: We release InternAgent (NovelSeek), a unified closed-loop multi-agent framework for Automatic Scientific Research.
+        - *2025.02*: One paper (CST-Stereo) is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">CVPR 2025</span>.
         - *2024.12*: One paper (GeoX) is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ICLR 2025</span>      
         - *2024.12*: One paper (AIOStereo) is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">AAAI 2025</span>.
         - *2024.10*: I receive the <span style="color: var(--color-primary-600); font-weight: 600;">National Scholarship</span>.
