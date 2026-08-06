@@ -70,7 +70,7 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Selective Publications
+      title: Selected Publications & Projects
       filters:
         folders:
           - publications
@@ -83,7 +83,7 @@ sections:
       title: ''
       text: |-
         <div style="text-align: center; margin-top: -10px;">
-          <a href="/publications/" class="see-all-btn" style="display: inline-flex; align-items: center; gap: 8px; padding: 10px 24px; border-radius: 8px; border: 1px solid var(--color-primary-200); color: var(--color-primary-600); font-weight: 500; text-decoration: none; transition: all 0.3s;">See All Publications →</a>
+          <a href="/publications/" class="see-all-btn" style="display: inline-flex; align-items: center; gap: 8px; padding: 10px 24px; border-radius: 8px; border: 1px solid var(--color-primary-200); color: var(--color-primary-600); font-weight: 500; text-decoration: none; transition: all 0.3s;">See All Publications & Projects →</a>
         </div>
     design:
       columns: '1'
