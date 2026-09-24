@@ -17,4 +17,6 @@ links:
   - type: custom
     label: Blog
     url: "https://qwen.ai/blog?id=qwen3.8"
+  - type: dataset
+    url: "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
 ---

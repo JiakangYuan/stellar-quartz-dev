@@ -30,6 +30,7 @@ sections:
       title: 'News'
       subtitle: ''
       text: |-
+        - *2026.09*: <a href="/publications/recreationworld/" style="color: var(--color-primary-600); font-weight: 600;">RecreationWorld</a>, a five-platform framework and benchmark for hybrid computer-use agents, is released on arXiv and GitHub.
         - *2026.08*: <a href="https://qwen.ai/blog?id=qwen3.8" style="color: var(--color-primary-600); font-weight: 600;">Qwen3.8-Max</a>, a 2.4T-parameter model with 95B active parameters, is released with strong improvements in coding, research, and long-horizon autonomous tasks.
         - *2026.06*: Agents-A1, an open-source 35B MoE model specialized on long-horizon tasks is out on Github and Huggingface, checkout the technical report.
         - *2026.06*: One papers (T^2VLA) is accepted by <span style="color: var(--color-primary-600); font-weight: 600;">ECCV 2026</span> which is about test-time learning of VLA models.
